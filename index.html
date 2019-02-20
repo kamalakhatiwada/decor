@@ -22,7 +22,7 @@
 
 
 <section id="menu-section" class="menu">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top ">
         <div class="container">
             <a class="navbar-brand text-primary font-weight-bold" href="#">
                 LOGO
@@ -33,7 +33,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  ml-auto text-center">
-                    <li class="nav-item active"><a class="nav-link text-primary" href=#">HOME <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active-home"><a class="nav-link text-primary" href=#">HOME <span
+                            class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item"><a class="nav-link text-gray" href="">ABOUT US</a></li>
                     <li class="nav-item"><a class="nav-link text-gray" href="">SERVICES</a></li>
@@ -60,11 +61,11 @@
 
 <section class="slider">
     <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
+        <!--<ul class="carousel-indicators">-->
+            <!--<li data-target="#demo" data-slide-to="0" class="active"></li>-->
+            <!--<li data-target="#demo" data-slide-to="1"></li>-->
+            <!--<li data-target="#demo" data-slide-to="2"></li>-->
+        <!--</ul>-->
         <div class="carousel-inner">
 
             <div class="carousel-item active">
@@ -177,6 +178,52 @@
                     exercitationem nihil qui
                     recusandae. Explicabo fuga modi quasi quia quis velit veniam</p>
                 <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--gallery-->
+<section class="isotope">
+    <div class="container">
+        <h2>Our gallery</h2>
+        <div class="portfolio-menu">
+            <ul>
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".exterior">Exterior Design</li>
+                <li data-filter=".building">Building</li>
+                <li data-filter=".isolation">Isolation</li>
+                <li data-filter=".plumbing">Plumbing</li>
+                <li data-filter=".interior">Interior design</li>
+            </ul>
+        </div>
+        <div class="portfolio-item">
+            <div class="item exterior">
+                <img src="assets/images/gallery/bg-image.jpg" alt="back">
+            </div>
+            <div class="item building">
+                <img src="assets/images/gallery/chairs-2181947_1920.jpg" alt="back">
+            </div>
+            <div class="item isolation">
+                <img src="assets/images/gallery/chairs-2181994_1920.jpg" alt="back">
+            </div>
+            <div class="item plumbing">
+                <img src="assets/images/gallery/furniture-998265_1920.jpg" alt="back">
+            </div>
+            <div class="item interior">
+                <img src="assets/images/gallery/interior-768526_1920.jpg" alt="back">
+            </div>
+            <div class="item plumbing">
+                <img src="assets/images/gallery/interior-768526_1920.jpg" alt="back">
+            </div>
+            <div class="item isolation">
+                <img src="assets/images/gallery/chairs-2181994_1920.jpg" alt="back">
+            </div>
+            <div class="item building">
+                <img src="assets/images/gallery/chairs-2181947_1920.jpg" alt="back">
+            </div>
+            <div class="item exterior">
+                <img src="assets/images/gallery/bg-image.jpg" alt="back">
             </div>
         </div>
     </div>
@@ -327,34 +374,34 @@
 
 <!--footer-section-->
 
-<section id="footer-section" class="footer">
-    <div class="container text-center">
-        <h2 class="footer__heading--contact">Contact Us</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <h3 class="footer__heading--details">Social Links</h3>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-google-plus"></i></a>
-            </div>
-            <div class="col-md-4">
-                <h3 class="footer__heading--details">Opening hours</h3>
-                <p class="footer__content">Sunday-Friday<br/>9:00am-5:00pm</p>
-            </div>
-            <div class="col-md-4">
-                <h3 class="footer__heading--details">Office Location</h3>
-                <ul>
-                    <li><i class="fas fa-home"></i><br/>
-                        <p class="footer__content--location">Lorem ipsum</p></li>
-                    <li><i class="fas fa-phone"></i><br/>
-                        <p class="footer__content--location">98xxxxxxxxx</p></li>
-                    <li><i class="fas fa-envelope-square"></i><br/>
-                        <p class="footer__content--location">loremipsum@gmail.com</p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section id="footer-section" class="footer">-->
+<!--<div class="container text-center">-->
+<!--<h2 class="footer__heading&#45;&#45;contact">Contact Us</h2>-->
+<!--<div class="row">-->
+<!--<div class="col-md-4">-->
+<!--<h3 class="footer__heading&#45;&#45;details">Social Links</h3>-->
+<!--<a href="#"><i class="fab fa-facebook"></i></a>-->
+<!--<a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--<a href="#"><i class="fab fa-google-plus"></i></a>-->
+<!--</div>-->
+<!--<div class="col-md-4">-->
+<!--<h3 class="footer__heading&#45;&#45;details">Opening hours</h3>-->
+<!--<p class="footer__content">Sunday-Friday<br/>9:00am-5:00pm</p>-->
+<!--</div>-->
+<!--<div class="col-md-4">-->
+<!--<h3 class="footer__heading&#45;&#45;details">Office Location</h3>-->
+<!--<ul>-->
+<!--<li><i class="fas fa-home"></i><br/>-->
+<!--<p class="footer__content&#45;&#45;location">Lorem ipsum</p></li>-->
+<!--<li><i class="fas fa-phone"></i><br/>-->
+<!--<p class="footer__content&#45;&#45;location">98xxxxxxxxx</p></li>-->
+<!--<li><i class="fas fa-envelope-square"></i><br/>-->
+<!--<p class="footer__content&#45;&#45;location">loremipsum@gmail.com</p></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
 
 <!--widget section-->
 <section id="widget-section" class="widget">
@@ -405,6 +452,24 @@
 <!-- script -->
 <script src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script>
+    $('.portfolio-item').isotope({
+        itemselector: '.item',
+        layoutMode: 'fitRows'
+    });
+    $('.portfolio-menu ul li').click(function () {
+
+        $('.portfolio-menu ul li').removeClass('active');
+        $(this).addClass('active');
+        var selector = $(this).attr('data-filter');
+
+        $('.portfolio-item').isotope({
+            filter: selector
+        });
+        return false;
+    });
+</script>
 
 </body>
 </html>
