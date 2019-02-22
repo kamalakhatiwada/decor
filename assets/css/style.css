@@ -44,6 +44,18 @@ h3{
 
  a.nav-link{
     color: #ffffff!important;
+ }
+
+ /*a.nav-link:hover{*/
+     /*background: #af1c54;*/
+ /*}*/
+
+ .active-home{
+     background: #af1c54;
+ }
+.nav-item:hover{
+    background: #af1c54;
+    transition: .5s ease-in;
 }
 .slider img{
     width: 100%;
@@ -145,7 +157,7 @@ h3{
 }
 
 .container{
-    width: 90%;
+    /*width: 90%;*/
     margin: 10px auto;
     padding-left: 30px;
 }
