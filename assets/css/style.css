@@ -23,32 +23,65 @@ h3{
     font-size: 26px;
 }
 
-
-
-/*bg image*/
-
-.bg img {
-    width: 100%;
-    margin: 0 auto;
+/*topbar*/
+.topbar{
+    padding-top: 10px;
+}
+a.site-title{
+    text-decoration: none;
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+}
+.phone-number{
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
+.address{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.address__list ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.social-icon__list ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.fas{
+    padding-top: 5px;
+}
+.fab {
+    color: #000;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.address__list a{
+    float: left;
+    padding-right: 20px;
+}
+/*menubar*/
+.navbar-brand{
+    display: none;
+}
 .bg-dark {
     background-color: #c6146f !important;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.navbar-dark .navbar-brand {
-    color: #fff;
-    font-size: 35px;
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
 }
 
  a.nav-link{
     color: #ffffff!important;
  }
-
- /*a.nav-link:hover{*/
-     /*background: #af1c54;*/
- /*}*/
+.menu{
+    /*margin-top: -17px;*/
+    /*margin-bottom: 1px;*/
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
 
  .active-home{
      background: #af1c54;
@@ -57,6 +90,25 @@ h3{
     background: #af1c54;
     transition: .5s ease-in;
 }
+a.nav-link{
+    padding-left: 94px;
+}
+
+.address__list ul li i{
+    color: #000000;
+    font-size: 25px;
+}
+
+.address__list p{
+    display: table-cell;
+    padding-right: 25px;
+}
+
+.nav-link .nav-item a{
+    padding-left: 30px;
+}
+/*carousel*/
+
 .slider img{
     width: 100%;
 }
@@ -430,8 +482,8 @@ a.news__link:hover{
 /*widget css*/
 
 .footer {
-    background: #0c0e10;
-    padding: 60px 0;
+    background: #b3b7bb;
+       padding: 60px 0;
 }
 
 .footer-title{
@@ -447,24 +499,18 @@ a.news__link:hover{
     font-size: 35px;
 }
 
-.list > li > a {
+.list > ul>li > a {
     text-decoration: none;
     list-style-type: none;
     color: #fff;
 }
 
-.list > li {
+.list > ul>li {
     list-style-type: none;
 
 }
 
-.list > li > a:hover {
+.list > ul>li > a:hover {
     color: #117a8b;
 }
 
-.hr{
-    width: 75%;
-    color: #f7f7f7;
-    border-top: 2px solid rgba(255, 255, 255, 0.1)!important;
-
-}
