@@ -23,11 +23,11 @@
 <section id="topbar-section" class="topbar">
     <div class="container">
         <div class="row">
-            <div class="col-md-5"><a class="site-title" href="#">
+            <div class="col-md-2"><a class="site-title" href="#">
                 DECOR
             </a>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="address__list">
                     <ul>
                         <li>
@@ -44,6 +44,8 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="col-md-2">
                 <div class="social-icon__list">
                     <ul>
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -55,12 +57,13 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
 
 <!--menubar-->
 
 <section id="menu-section" class="menu">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">MENU</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -87,11 +90,6 @@
 
 <section class="slider">
     <div id="demo" class="carousel slide" data-ride="carousel">
-        <!--<ul class="carousel-indicators">-->
-        <!--<li data-target="#demo" data-slide-to="0" class="active"></li>-->
-        <!--<li data-target="#demo" data-slide-to="1"></li>-->
-        <!--<li data-target="#demo" data-slide-to="2"></li>-->
-        <!--</ul>-->
         <div class="carousel-inner">
 
             <div class="carousel-item active">
@@ -99,7 +97,7 @@
                     <img src="assets/images/slider/slider1.jpg" alt="coffee-slide-image">
                 </figure>
                 <div class="carousel-caption">
-                    <h3 class="display-3">Home Decor</h3>
+                    <h3 class="display-3 carousel__header">Home Decor</h3>
                     <p class="carousel__content">Lorem ipsum dolor sit amet.</p>
                     <a href="#" class="btn" role="button">Read More</a>
                 </div>
@@ -110,7 +108,7 @@
                     <img src="assets/images/slider/slider2.jpg" alt="drag-drop">
                 </figure>
                 <div class="carousel-caption">
-                    <h3 class="display-3">Home Decor</h3>
+                    <h3 class="display-3 carousel__header">Home Decor</h3>
                     <p class="carousel__content">Lorem ipsum dolor sit amet.</p>
                     <a href="#" class="btn" role="button">Read More</a>
                 </div>
@@ -121,7 +119,7 @@
                     <img src="assets/images/slider/slider3.jpg" alt="slider-1">
                 </figure>
                 <div class="carousel-caption">
-                    <h3 class="display-3">Home Decor</h3>
+                    <h3 class="display-3 carousel__header">Home Decor</h3>
                     <p class="carousel__content">Lorem ipsum dolor sit amet.</p>
                     <a href="#" class="btn" role="button">Read More</a>
                 </div>
@@ -397,85 +395,57 @@
     </div>
 </section>
 
-
-<!--footer-section-->
-
-<!--<section id="footer-section" class="footer">-->
-<!--<div class="container text-center">-->
-<!--<h2 class="footer__heading&#45;&#45;contact">Contact Us</h2>-->
-<!--<div class="row">-->
-<!--<div class="col-md-4">-->
-<!--<h3 class="footer__heading&#45;&#45;details">Social Links</h3>-->
-<!--<a href="#"><i class="fab fa-facebook"></i></a>-->
-<!--<a href="#"><i class="fab fa-twitter"></i></a>-->
-<!--<a href="#"><i class="fab fa-google-plus"></i></a>-->
-<!--</div>-->
-<!--<div class="col-md-4">-->
-<!--<h3 class="footer__heading&#45;&#45;details">Opening hours</h3>-->
-<!--<p class="footer__content">Sunday-Friday<br/>9:00am-5:00pm</p>-->
-<!--</div>-->
-<!--<div class="col-md-4">-->
-<!--<h3 class="footer__heading&#45;&#45;details">Office Location</h3>-->
-<!--<ul>-->
-<!--<li><i class="fas fa-home"></i><br/>-->
-<!--<p class="footer__content&#45;&#45;location">Lorem ipsum</p></li>-->
-<!--<li><i class="fas fa-phone"></i><br/>-->
-<!--<p class="footer__content&#45;&#45;location">98xxxxxxxxx</p></li>-->
-<!--<li><i class="fas fa-envelope-square"></i><br/>-->
-<!--<p class="footer__content&#45;&#45;location">loremipsum@gmail.com</p></li>-->
-<!--</ul>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--widget section-->
+<!--footer section-->
 <section id="footer-section" class="footer">
     <div class="container">
         <div class="row">
 
             <div class="col-md-3">
                 <h3 class="footer-title"><span class="first-letter">D</span>ECOR</h3>
-                <p>Street 238,52 tempor<br/>Lorem ipsum</p>
-                <br />
-                <p>Phone:+977-98XXXXXXX<br />
-                Phone:+977-98XXXXXXX<br />
-                Phone:+977-98XXXXXXX</p>
+                <p class="info">Street 238,52 tempor<br/>Lorem ipsum</p>
+                <br/>
+                <p><span class="info-address">Phone:</span>+977-98XXXXXXX</p>
+                <p><span class="info-address">Email:</span>support@gmail.com</p>
+                <p><span class="info-address">Website:</span>www.support.com</p>
             </div>
 
             <div class="col-md-3">
                 <h3 class="footer-title"><span class="first-letter">L</span>ATEST POSTS</h3>
                 <div class="list">
-                <ul>
-                    <li><a href="#">Lorem ipsum</a></li>
-                    <li><a href="#">Lorem ipsum</a></li>
-                    <li><a href="#">Lorem ipsum</a></li>
-                    <li><a href="#">Lorem ipsum</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                    </ul>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <h3 class="footer-title"><span class="first-letter">Q</span>UICK LINKS</h3>
                 <div class="list">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <h3 class="footer-title"><span class="first-letter">N</span>EWS LETTER</h3>
+                <form action="#">
+                    <input type="email" value="">
+                    <a href="" class="send-email"></a>
+                </form>
             </div>
         </div>
         <hr/>
-        <div class="row text-center text-white">Home Decor.&copy Copyright,All rights reserved.</div>
+        <div class="row text-color">Home Decor.&copy Copyright,All rights reserved.</div>
     </div>
 </section>
 
