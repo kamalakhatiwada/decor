@@ -521,7 +521,40 @@ a.send-email{
        text-align: center;
     }
     .welcome__content p{
-        text-align: center;
+        text-align: left;
+    }
+    .about .about-box{
+        padding-bottom: 30px;
+    }
+    .gallery{
+
+    }
+    .service-box{
+        padding-bottom: 20px;
+    }
+    .service-cover{
+        padding-bottom: 20px;
+    }
+    .contact .contact__icon{
+        font-size: 42px;
+    }
+    .contact h2{
+        font-size: 17px;
+
+    }
+    .contact p{
+        font-size: 12px;
+    }
+    .contact a{
+        padding: 6px 6px;
+        float: left;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .news-box {
+        margin-left: 0;
+        margin-top: 12px;
+        width: 371px;
     }
 }
 
