@@ -268,10 +268,10 @@ li.active{
 }
 
 .service-box{
-    width: 350px;
-    height: 200px;
+    /* width: 350px;
+    height: 200px; */
     background: #ffffff;
-    padding: 30px;
+    padding: 22px;
 }
 
 .m-top{
@@ -612,13 +612,14 @@ a.send-email{
         padding-bottom: 30px;
         margin-left: -30px;
     }
-    .service-cover{
+    /* .service-cover{
         padding-bottom: 30px;
-    }
+    } */
     .service-box {
-        width: 435px;
-        padding: 36px;
-    }
+        /* width: 435px;
+        padding: 36px; */
+        margin-bottom: 28px;
+    } 
     .contact a{
         float: left;
     }
@@ -688,15 +689,15 @@ a.send-email{
         font-size: 16px;
         padding-right: 30px;
     }
-    .service-cover {
+    /* .service-cover {
         padding-bottom: 30px;
         margin-right: 148px;
         height: 238px;
-    }
-    .service-box {
+    } */
+    /* .service-box {
         width: 587px;
         padding: 36px;
-    }
+    } */
     .contact__icon {
        margin-right: 20px;
         font-size: 50px;
@@ -777,15 +778,18 @@ a.send-email{
         font-size: 16px;
         padding-right: 30px;
     }
-    .service-cover {
+    /* .service-cover {
         padding-bottom: 30px;
         margin-right: 148px;
         height: 238px;
-    }
-    .service-box {
+    } */
+
+    /* .service-box {
         width: 587px;
         padding: 36px;
-    }
+    } */
+
+
     /*.contact__icon {*/
         /*margin-right: 20px;*/
         /*font-size: 50px;*/
