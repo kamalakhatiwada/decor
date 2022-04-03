@@ -364,6 +364,9 @@ li.active{
 .news-one{
     margin-top: 40px;
 }
+image{
+    width: 100%;
+}
 .news-box{
     background: #ffffff;
     border: solid 1px #ebeaea;
@@ -444,12 +447,12 @@ a.news__link:hover{
     padding-left: 10px;
     color: #fff;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .first-letter{
     color: #c6146f;
-    font-size: 35px;
+    font-size: 25px;
 }
 .info{
     color: #9e9797;
